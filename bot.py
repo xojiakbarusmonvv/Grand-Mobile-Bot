@@ -15,16 +15,16 @@ from telegram.ext import (
 # SOZLAMALAR
 # =========================
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8865716202:AAH4YKEdum7ed3PKYsJ6iSmiXXC0K0F3SoY")
+GROQ_API_KEY = os.getenv("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")
 
 MODEL = "openai/gpt-oss-20b"
 
 if not TELEGRAM_TOKEN:
-    raise RuntimeError("TELEGRAM_TOKEN topilmadi!")
+    raise RuntimeError("8865716202:AAH4YKEdum7ed3PKYsJ6iSmiXXC0K0F3SoY")
 
 if not GROQ_API_KEY:
-    raise RuntimeError("GROQ_API_KEY topilmadi!")
+    raise RuntimeError("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")
 
 client = Groq(api_key=GROQ_API_KEY)
 
